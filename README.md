@@ -4,3 +4,9 @@ Simple docker node app
  - npm install
  - node server.js
 ## Running on docker
+ - docker build .
+ - docker run -p 3000:80 ID_HERE
+ - open localhost:3000
+
+ - docker ps, to see the name of the container
+ - docker stop NAME_HERE 
